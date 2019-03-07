@@ -1,14 +1,19 @@
 {
-  "name": "map-project-tileserver",
+  "name": "mapkeep-tileserver",
   "version": "0.0.1",
-  "description": "Tileserver for map-project",
+  "description": "This is the tile-server for the mapkeep web map",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js",
     "stop": "pm2 stop index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Salvatore Zappalà",
+  "author": "Salvatore Zappalà <salvatore@salvatorezappala.info>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvozappa/mapkeep-tileserver"
+  },
   "dependencies": {
     "@mapbox/mbtiles": "^0.10.0",
     "express": "^4.16.4",
